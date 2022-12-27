@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="css/site.css"/>
+    <title>Warehouse</title>
+    <script type="text/javascript" src="js/site.js"></script>
+</head>
+<body>
+<h2>Items</h2>
+<table class="styled-table" id="items-table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Count</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+        <tr  onclick="on_new_item_button_click()" id="empty-items-banner"><td colspan="2">Nothing here.. Click here to add a new item</td></tr>
+    </tfoot>
+</table>
+
+<h2>Query items</h2>
+<table class="styled-table" id="query-items-table">
+    <thead>
+    <tr>
+        <th>Item name</th>
+        <th>Required</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot id="empty-query-items-banner">
+        <tr><td colspan="2">Nothing here..</td></tr>
+    </tfoot>
+</table>
+</body>
+</html>
